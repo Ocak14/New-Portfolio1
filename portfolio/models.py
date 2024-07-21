@@ -15,24 +15,24 @@ class Contact(models.Model):
     
 
 
-class About(models.Model):
-    title = models.CharField(max_length=100)
-    description = models.TextField()
+# class About(models.Model):
+#     title = models.CharField(max_length=100)
+#     description = models.TextField()
 
-class Books(models.Model):
-    title = models.CharField(max_length=100)
-    author = models.CharField(max_length=100)
-
-
-class Index(models.Model):
-    title = models.CharField(max_length=100)
-    content = models.TextField()
-
-class Portfolio(models.Model):
-    project_name = models.CharField(max_length=100)
-    description = models.TextField()
+# class Books(models.Model):
+#     title = models.CharField(max_length=100)
+#     author = models.CharField(max_length=100)
 
 
-class Gallery(models.Model):
-    project_name = models.CharField(max_length=100)
-    description = models.TextField()
+# class Index(models.Model):
+#     title = models.CharField(max_length=100)
+#     content = models.TextField()
+
+# class Portfolio(models.Model):
+#     project_name = models.CharField(max_length=100)
+#     description = models.TextField()
+
+
+# class Gallery(models.Model):
+#     project_name = models.CharField(max_length=100)
+#     description = models.TextField()
